@@ -22,9 +22,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubuserconte
 
 # vimrc
 
-echo "set clipboard=unnamedplus
-
-let mapleader = \" \"
+echo "let mapleader = \" \"
 
 set number
 
@@ -109,6 +107,7 @@ echo 'if [ -f ~/.bashrc ]; then' >> ~/.bash_profile
 echo '    . ~/.bashrc' >> ~/.bash_profile
 echo 'fi' >> ~/.bash_profile
 
+rm -rf vim 
 # INSTRUCTIONS 
 
 echo "Thank you for installing!! Firstly, I am going to give a TLDR for people who already are familiar with these tools, just to know where the locations of stuff is.
@@ -119,6 +118,8 @@ tmux config; ~/.tmux.conf
 
 VIMOSC-YANK is on leader + c
 leader is default on spacebar
+PLEASE DOWNLOAD THE PLUGINS FOR VIM. [esc][:PlugInstall]
+This will give you colours and plugins! If you want, but I explain it later; download lsp via [:LspInstallServer]
 
 =============================================
 ======== Resources // Quick tutorial ========
